@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="MedVita Clínica — Atención médica de excelencia. Especialistas, citas en línea y laboratorio."/>
+  <title>MedVita — Clínica Médica Integral</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="logo"><i class="fa-solid fa-heart-pulse"></i> Med<span>Vita</span></a>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#inicio" class="nav__link">Inicio</a></li>
+        <li><a href="#especialidades" class="nav__link">Especialidades</a></li>
+        <li><a href="#doctores" class="nav__link">Doctores</a></li>
+        <li><a href="#servicios" class="nav__link">Servicios</a></li>
+        <li><a href="#cita" class="nav__link">Cita en línea</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="tel:+15551234567" class="nav__phone"><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</a>
+        <a href="#cita" class="btn btn--primary">Agendar cita</a>
+        <button class="nav__toggle" id="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__content container">
+      <div class="hero__text">
+        <span class="hero__tag"><i class="fa-solid fa-shield-heart"></i> Certificados ISO 9001 · 20 años de excelencia</span>
+        <h1>Tu salud, nuestra <span>prioridad</span> número uno</h1>
+        <p>Atención médica integral con tecnología de vanguardia. Especialistas certificados, resultados en línea y citas disponibles 24/7.</p>
+        <div class="hero__btns">
+          <a href="#cita" class="btn btn--primary btn--lg">Agendar cita ahora</a>
+          <a href="#especialidades" class="btn btn--outline-light btn--lg">Ver especialidades</a>
+        </div>
+        <div class="hero__trust">
+          <div class="trust-item"><strong>50,000+</strong><span>Pacientes atendidos</span></div>
+          <div class="trust-item"><strong>35+</strong><span>Especialistas</span></div>
+          <div class="trust-item"><strong>4.9★</strong><span>Calificación</span></div>
+        </div>
+      </div>
+      <div class="hero__card-group">
+        <div class="hero__card">
+          <i class="fa-solid fa-calendar-check"></i>
+          <div>
+            <strong>Cita express</strong>
+            <p>En menos de 2 horas</p>
+          </div>
+        </div>
+        <div class="hero__card">
+          <i class="fa-solid fa-flask"></i>
+          <div>
+            <strong>Laboratorio propio</strong>
+            <p>Resultados el mismo día</p>
+          </div>
+        </div>
+        <div class="hero__card">
+          <i class="fa-solid fa-video"></i>
+          <div>
+            <strong>Teleconsulta</strong>
+            <p>Desde cualquier lugar</p>
+          </div>
+        </div>
+        <div class="hero__card">
+          <i class="fa-solid fa-file-medical"></i>
+          <div>
+            <strong>Expediente digital</strong>
+            <p>Acceso desde tu celular</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESPECIALIDADES -->
+  <section class="section" id="especialidades">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Especialidades</span>
+        <h2>Atención experta en cada área</h2>
+        <p>Contamos con las principales especialidades médicas bajo un mismo techo.</p>
+      </div>
+      <div class="specs__grid">
+        <a href="#cita" class="spec-card"><div class="spec-card__icon" style="background:#eff6ff;color:#3b82f6"><i class="fa-solid fa-heart"></i></div><h3>Cardiología</h3><p>Electrocardiogramas, ecocardiogramas y holter.</p></a>
+        <a href="#cita" class="spec-card"><div class="spec-card__icon" style="background:#f0fdf4;color:#22c55e"><i class="fa-solid fa-brain"></i></div><h3>Neurología</h3><p>EEG, resonancias y evaluación neurológica.</p></a>
+        <a href="#cita" class="spec-card"><div class="spec-card__icon" style="background:#fef9c3;color:#eab308"><i class="fa-solid fa-bone"></i></div><h3>Traumatología</h3><p>Rayos X, cirugía ortopédica y rehabilitación.</p></a>
+        <a href="#cita" class="spec-card"><div class="spec-card__icon" style="background:#fdf4ff;color:#a855f7"><i class="fa-solid fa-eye"></i></div><h3>Oftalmología</h3><p>Examen visual, lentes y cirugía láser.</p></a>
+        <a href="#cita" class="spec-card"><div class="spec-card__icon" style="background:#fff7ed;color:#f97316"><i class="fa-solid fa-baby"></i></div><h3>Pediatría</h3><p>Control de niño sano y urgencias pediátricas.</p></a>
+        <a href="#cita" class="spec-card"><div class="spec-card__icon" style="background:#fff1f2;color:#f43f5e"><i class="fa-solid fa-dna"></i></div><h3>Ginecología</h3><p>Control prenatal, colposcopía y ultrasonido.</p></a>
+        <a href="#cita" class="spec-card"><div class="spec-card__icon" style="background:#f0fdfa;color:#14b8a6"><i class="fa-solid fa-tooth"></i></div><h3>Odontología</h3><p>Limpieza, ortodoncia e implantes dentales.</p></a>
+        <a href="#cita" class="spec-card spec-card--more"><div class="spec-card__icon" style="background:#f1f5f9;color:#64748b"><i class="fa-solid fa-plus"></i></div><h3>+15 más</h3><p>Ver todas las especialidades disponibles.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTORES -->
+  <section class="section doctors" id="doctores">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Nuestro equipo</span>
+        <h2>Médicos certificados y comprometidos</h2>
+      </div>
+      <div class="doctors__grid">
+        <div class="doctor-card">
+          <div class="doctor-card__avatar" style="background:linear-gradient(135deg,#3b82f6,#1d4ed8)">👨‍⚕️</div>
+          <h3>Dr. Roberto Sánchez</h3>
+          <span class="doctor-card__spec">Cardiólogo</span>
+          <p>Egresado UNAM. Fellow del American College of Cardiology. 18 años de experiencia.</p>
+          <div class="doctor-card__meta">
+            <span><i class="fa-regular fa-star"></i> 4.9</span>
+            <span><i class="fa-solid fa-users"></i> 3,200+ pacientes</span>
+          </div>
+          <a href="#cita" class="btn btn--sm btn--primary">Agendar</a>
+        </div>
+        <div class="doctor-card">
+          <div class="doctor-card__avatar" style="background:linear-gradient(135deg,#ec4899,#be185d)">👩‍⚕️</div>
+          <h3>Dra. Patricia Vega</h3>
+          <span class="doctor-card__spec">Ginecóloga</span>
+          <p>Especialista en medicina materno-fetal. Máster en ultrasonografía obstétrica.</p>
+          <div class="doctor-card__meta">
+            <span><i class="fa-regular fa-star"></i> 5.0</span>
+            <span><i class="fa-solid fa-users"></i> 4,100+ pacientes</span>
+          </div>
+          <a href="#cita" class="btn btn--sm btn--primary">Agendar</a>
+        </div>
+        <div class="doctor-card">
+          <div class="doctor-card__avatar" style="background:linear-gradient(135deg,#22c55e,#15803d)">👨‍⚕️</div>
+          <h3>Dr. Luis Herrera</h3>
+          <span class="doctor-card__spec">Pediatra</span>
+          <p>Subespecialidad en neonatología. Miembro de la Sociedad Mexicana de Pediatría.</p>
+          <div class="doctor-card__meta">
+            <span><i class="fa-regular fa-star"></i> 4.8</span>
+            <span><i class="fa-solid fa-users"></i> 2,800+ pacientes</span>
+          </div>
+          <a href="#cita" class="btn btn--sm btn--primary">Agendar</a>
+        </div>
+        <div class="doctor-card">
+          <div class="doctor-card__avatar" style="background:linear-gradient(135deg,#a855f7,#7e22ce)">👩‍⚕️</div>
+          <h3>Dra. Carmen Torres</h3>
+          <span class="doctor-card__spec">Neuróloga</span>
+          <p>Doctorado en Neurociencias. Especialista en epilepsia y enfermedades neurodegenerativas.</p>
+          <div class="doctor-card__meta">
+            <span><i class="fa-regular fa-star"></i> 4.9</span>
+            <span><i class="fa-solid fa-users"></i> 1,900+ pacientes</span>
+          </div>
+          <a href="#cita" class="btn btn--sm btn--primary">Agendar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section services-band" id="servicios">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Servicios adicionales</span>
+        <h2>Todo lo que necesitas en un solo lugar</h2>
+      </div>
+      <div class="services__row">
+        <div class="srv"><i class="fa-solid fa-flask-vial"></i><h3>Laboratorio clínico</h3><p>Resultados en 4 horas. Más de 500 estudios disponibles.</p></div>
+        <div class="srv"><i class="fa-solid fa-x-ray"></i><h3>Imagenología</h3><p>Rayos X, tomografía, resonancia magnética y ultrasonido.</p></div>
+        <div class="srv"><i class="fa-solid fa-pills"></i><h3>Farmacia interna</h3><p>Medicamentos a precio de costo para pacientes de la clínica.</p></div>
+        <div class="srv"><i class="fa-solid fa-ambulance"></i><h3>Urgencias 24/7</h3><p>Servicio de urgencias disponible las 24 horas, los 365 días.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CITA -->
+  <section class="section cita-section" id="cita">
+    <div class="container">
+      <div class="cita__wrapper">
+        <div class="cita__info">
+          <span class="tag">Agenda en línea</span>
+          <h2>Reserva tu cita en <span>3 minutos</span></h2>
+          <p>Sin filas, sin esperas. Selecciona tu especialidad, elige al médico y confirma tu horario al instante.</p>
+          <div class="cita__steps">
+            <div class="cs"><span>1</span><p>Selecciona especialidad y médico</p></div>
+            <div class="cs"><span>2</span><p>Elige fecha y hora disponible</p></div>
+            <div class="cs"><span>3</span><p>Confirma y recibe tu recordatorio</p></div>
+          </div>
+        </div>
+        <form class="cita__form" id="cita-form">
+          <h3>Información del paciente</h3>
+          <div class="form-row">
+            <input type="text" placeholder="Nombre completo" required/>
+            <input type="tel" placeholder="Teléfono" required/>
+          </div>
+          <input type="email" placeholder="Correo electrónico" required/>
+          <select required>
+            <option value="">Selecciona una especialidad</option>
+            <option>Cardiología</option><option>Neurología</option><option>Traumatología</option>
+            <option>Oftalmología</option><option>Pediatría</option><option>Ginecología</option>
+            <option>Odontología</option><option>Medicina general</option>
+          </select>
+          <div class="form-row">
+            <input type="date" required/>
+            <select><option value="">Horario preferido</option><option>Mañana (7–12h)</option><option>Tarde (12–17h)</option><option>Noche (17–20h)</option></select>
+          </div>
+          <textarea rows="3" placeholder="Motivo de consulta o síntomas..."></textarea>
+          <button type="submit" class="btn btn--primary btn--full btn--lg">
+            Confirmar cita <i class="fa-solid fa-calendar-check"></i>
+          </button>
+          <p class="form__note"><i class="fa-solid fa-lock"></i> Tus datos están protegidos. Política HIPAA.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#" class="logo"><i class="fa-solid fa-heart-pulse"></i> Med<span>Vita</span></a>
+        <p>Clínica médica integral comprometida con tu bienestar.</p>
+        <div class="footer__social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <div><h4>Especialidades</h4><ul><li><a href="#">Cardiología</a></li><li><a href="#">Neurología</a></li><li><a href="#">Pediatría</a></li><li><a href="#">Ginecología</a></li></ul></div>
+      <div><h4>Clínica</h4><ul><li><a href="#">Sobre nosotros</a></li><li><a href="#">Nuestros médicos</a></li><li><a href="#">Seguros aceptados</a></li><li><a href="#">Trabaja con nosotros</a></li></ul></div>
+      <div><h4>Contacto</h4><ul><li><i class="fa-solid fa-location-dot"></i> Av. Salud 123, Ciudad</li><li><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</li><li><i class="fa-solid fa-clock"></i> Lun–Sáb 7am–8pm</li><li><i class="fa-solid fa-circle-exclamation"></i> Urgencias 24/7</li></ul></div>
+    </div>
+    <p class="footer__copy">© 2026 MedVita Clínica. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    const h=document.getElementById('header')
+    window.addEventListener('scroll',()=>h.classList.toggle('scrolled',window.scrollY>50))
+    document.getElementById('nav-toggle').addEventListener('click',()=>document.getElementById('nav-menu').classList.toggle('open'))
+    document.getElementById('cita-form').addEventListener('submit',e=>{
+      e.preventDefault()
+      e.target.innerHTML='<div class="success"><i class="fa-solid fa-circle-check"></i><h3>¡Cita confirmada!</h3><p>Recibirás un correo de confirmación con todos los detalles en los próximos minutos.</p></div>'
+    })
+  </script>
+</body>
+</html>
